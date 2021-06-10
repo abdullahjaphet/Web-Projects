@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dot.css">
+    <script type="text/javascript" src="dot.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <header class="header clearfix">
+
+      <img src="./media/jordansPhoto.jpg" class="image" alt="abdullah's profile picture">
+      <h1>Abdullah's</h1>
+      <nav class="link-holder">
+        <a class="link" href="#Home" active>Home</a>
+        <a class="link" id="goner" href="#About">About</a>
+        <a class="link" href="#Contacts">Contacts</a>
+        <a class="link" href="#Portfolio">Portfolio</a>
+      </nav>
+      <span class=".clearfix"></span>
+    </header>
+    <span class=".clearfix"></span>
+
+      <main id="Home" class="clearfix">
+
+
+        <div id="About" class="about">
+          <h3>Welcome To My Portfolio</h3>
+            <p>This is where you can see some of my work and appreciate the art & if you ever want to contact me for a work. I will be delighted.Contacts will be given below the page.</p>
+            <button type="button" name="button" class="button">Lets Get Started</button>
+        </div>
+        <div class="portfolio-bag">
+          <div class="handle">
+
+          </div>
+          <div class="bag">
+              <h3 class="heading">Abdullah's</h3>
+          </div>
+
+
+        </div>
+
+      </main>
+      <span class=".clearfix"></span>
+      <div id="Portfolio" class="content">
+        <h3>My html and css only pages.</h3>
+        <div class="portfolio-card">
+          <a href="https://codepen.io/abdullahjaphet/full/yLgzbXg"><img class="webpic" src="./media/roseflower.png" alt="A rose flower"></a>
+          <p class="caption">A Rose Flower fun page</p>
+        </div>
+      </div>
+      <footer id="Contacts">
+
+      </footer>
+
+
+
+  </body>
+</html>
