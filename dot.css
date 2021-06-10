@@ -1,0 +1,140 @@
+body{
+  font-family: sans-serif;
+}
+.header{
+  width:100%;
+  height:75px;
+  font-family:sans;
+  color:purple;
+}
+.image{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  object-fit: contain;
+  float:left;
+  margin-top:15px;
+  margin-left:10px;
+  margin-right:10px;
+}
+h1{
+  font-weight:lighter;
+  float:left;
+  clear: right;
+  content: open-quote;
+}
+nav{
+  background:#123456;
+  width:100%;
+  position: sticky;
+  color:white;
+  float:left;
+  left:0px;
+}
+.link{
+  text-decoration: none;
+  display:inline-block;
+  padding:14px 21px;
+  margin-left:0px;
+  color:white;
+  float:left;
+}
+.link:hover{
+  background:#ccc;
+  color:#191919;
+}
+.link:active{
+  background:purple;
+  color:white;
+}
+@media only screen and (max-width:600px) {
+  #goner{
+    display:none;
+  }
+}
+main{
+  margin-top:30px;
+}
+.about{
+  width:50%;
+  float:left;
+  line-height: 1.5rem;
+  font-weight:500;
+  text-align: left;
+
+}
+.about h3,.content h3{
+  color:purple;
+  font-family: cursive;
+}
+.button{
+  background:#345678;
+  color:white;
+  border:0px;
+  padding:14px 21px;
+  border-radius:5%;
+}
+.button:hover{
+  background:#ccc;
+  color:purple;
+  //font-weight: bolder;
+}
+.portfolio-bag{
+  background:yellow;
+  width:50%;
+  float:left;
+  height:300px;
+  right:100px;
+  clear: right;
+}
+.bag{
+  width:200px;
+  height:100px;
+  background:#123456;
+  margin:-80px 50px;
+  color:#ccc;
+  overflow: auto;
+  font-family: cursive;
+  border-radius:0px 0px 1em 1em;
+  box-shadow:10px 10px 20px #191919;
+}
+.bag .heading{
+  vertical-align: middle;
+  margin:40px 0px 0px 50px;
+}
+.handle{
+  width:100px;
+  height:50px;
+  border-radius:50px 50px 0px 0px;
+  border:10px solid purple;
+  margin:70px 85px;
+  box-shadow:10px 10px 20px #191919;
+}
+@media only screen and (max-width:600px) {
+  .about,.portfolio-bag{
+    width:400px;
+  }
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.content{
+  margin-top:10px;
+}
+.portfolio-card{
+  width:400px;
+  height:300px;
+  overflow:hidden;
+}
+.webpic{
+  object-fit: contain;
+  width:400px;
+  height:250px;
+}
+.caption{
+  font-family: sans-serif;
+  font-style: italic;
+
+}
